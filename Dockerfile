@@ -1,1 +1,10 @@
 From gcr.io/kubeflow-images-public/ingress-setup:latest
+From gcr.io/kfserving/kfserving-controller:0.2.2
+From gcr.io/ml-pipeline/api-server:0.2.0
+From gcr.io/kubeflow-images-public/kfam:v1.0.0-gf3e09203
+From gcr.io/kubeflow-images-public/ingress-setup:latest
+From gcr.io/kubeflow-images-public/centraldashboard:v1.0.0-g3ec0de71
+From gcr.io/kubeflow-images-public/jupyter-web-app:v1.0.0-g2bd63238
+From gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller:v0.8.0
+From gcr.io/kubeflow-images-public/katib/v1alpha3/katib-db-manager:v0.8.0
+From gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui:v0.8.0
