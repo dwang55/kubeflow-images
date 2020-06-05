@@ -1,5 +1,6 @@
 From argoproj/argoui:v2.3.0
 From argoproj/workflow-controller:v2.3.0
+
 From docker.io/istio/citadel:1.1.6
 From docker.io/istio/galley:1.1.6
 From docker.io/istio/kubectl:1.1.6
@@ -8,26 +9,41 @@ From docker.io/istio/pilot:1.1.6
 From docker.io/istio/proxy_init:1.1.6
 From docker.io/istio/proxyv2:1.1.6
 From docker.io/istio/sidecar_injector:1.1.6
+From istio/citadel:1.1.6
+From istio/galley:1.1.6
+From istio/kubectl:1.1.6
+From istio/mixer:1.1.6
+From istio/pilot:1.1.6
+From istio/proxy_init:1.1.6
+From istio/proxyv2:1.1.6
+From istio/sidecar_injector:1.1.6
+
 From docker.io/jaegertracing/all-in-one:1.9
+
 From docker.io/kiali/kiali:v0.16
+
 From docker.io/prom/prometheus:v2.3.1
+
 From docker.io/seldonio/seldon-core-operator:1.0.1
+
 From gcr.io/google_containers/spartakus-amd64:v1.1.0
+
 From gcr.io/kfserving/kfserving-controller:0.2.2
-From gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:8e606671215cc029683e8cd633ec5de9eabeaa6e9a4392ff289883304be1f418
-From gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:5e0fadf574e66fb1c893806b5c5e5f19139cc476ebf1dff9860789fe4ac5f545
-From gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:ef1f01b5fb3886d4c488a219687aac72d28e72f808691132f658259e4e02bb27
-From gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:5ca13e5b3ce5e2819c4567b75c0984650a57272ece44bc1dabf930f9fe1e19a1
-From gcr.io/knative-releases/knative.dev/serving/cmd/networking/istio@sha256:727a623ccb17676fae8058cb1691207a9658a8d71bc7603d701e23b1a6037e6c
-From gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:1ef3328282f31704b5802c1136bd117e8598fd9f437df8209ca87366c5ce9fcb
+
 From gcr.io/kubebuilder/kube-rbac-proxy:v0.4.0
+
 From gcr.io/kubeflow-images-public/admission-webhook:v1.0.0-gaf96e4e3
+
 From gcr.io/kubeflow-images-public/centraldashboard:v1.0.0-g3ec0de71
+
 From gcr.io/kubeflow-images-public/ingress-setup:latest
+
 From gcr.io/kubeflow-images-public/jupyter-web-app:v1.0.0-g2bd63238
+
 From gcr.io/kubeflow-images-public/katib/v1alpha3/katib-controller:v0.8.0
 From gcr.io/kubeflow-images-public/katib/v1alpha3/katib-db-manager:v0.8.0
 From gcr.io/kubeflow-images-public/katib/v1alpha3/katib-ui:v0.8.0
+
 From gcr.io/kubeflow-images-public/kfam:v1.0.0-gf3e09203
 From gcr.io/kubeflow-images-public/kubernetes-sigs/application:1.0-beta
 From gcr.io/kubeflow-images-public/metadata-frontend:v0.1.8
@@ -46,14 +62,7 @@ From gcr.io/ml-pipeline/visualization-server:0.2.5
 From gcr.io/spark-operator/spark-operator:v1beta2-1.0.0-2.4.4
 From gcr.io/tfx-oss-public/ml_metadata_store_server:v0.21.1
 From grafana/grafana:6.0.2
-From istio/citadel:1.1.6
-From istio/galley:1.1.6
-From istio/kubectl:1.1.6
-From istio/mixer:1.1.6
-From istio/pilot:1.1.6
-From istio/proxy_init:1.1.6
-From istio/proxyv2:1.1.6
-From istio/sidecar_injector:1.1.6
+
 From jaegertracing/all-in-one:1.9
 From k8s.gcr.io/coredns:1.3.1
 From k8s.gcr.io/etcd:3.3.10
@@ -64,13 +73,17 @@ From k8s.gcr.io/kube-scheduler:v1.14.1
 From kiali/kiali:v0.16
 From metacontroller/metacontroller:v0.3.0
 From minio/minio:RELEASE.2018-02-09T22-40-05Z
+
 From mysql:5.6
 From mysql:8
 From mysql:8.0.3
+
 From prom/prometheus:v2.3.1
+
 From quay.io/coreos/flannel:v0.12.0-amd64
 From quay.io/jetstack/cert-manager-cainjector:v0.11.0
 From quay.io/jetstack/cert-manager-controller:v0.11.0
 From quay.io/jetstack/cert-manager-webhook:v0.11.0
+
 From seldonio/seldon-core-operator:1.0.1
 From tensorflow/tensorflow:1.8.0
